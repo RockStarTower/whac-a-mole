@@ -1,0 +1,388 @@
+
+
+#loseMessage {
+	display: none;
+}
+
+.loseDisplay {
+	display: block !important;
+}
+
+#timeMessage {
+	display: none;
+}
+
+#winMessage {
+	display: none;
+}
+
+#scoreBoard {
+	position: absolute;
+	left: 450px;
+	top: 630px;
+}
+
+#bird {
+	position: absolute;
+	width: 20px;
+	left: -20px;
+	top: 80px;
+	z-index: 5;
+}
+
+#bird2 {
+	position: absolute;
+	width: 30px;
+	left: 500px;
+	top: -40px;
+}
+
+.pow {
+	width: 140px;
+	display: none;
+}
+
+#pow1 {
+	position: absolute;
+	top: 220px;
+	left: 70px;
+	z-index: 2;
+}
+
+#pow2 {
+	position: absolute;
+	top: 120px;
+	left: 270px;
+	z-index: 2;
+}
+
+#pow3 {
+	position: absolute;
+	top: 220px;
+	left: 470px;
+	z-index: 2;
+}
+
+#pow4 {
+	position: absolute;
+	top: 120px;
+	left: 670px;
+	z-index: 2;
+}
+
+#pow5 {
+	position: absolute;
+	top: 380px;
+	left: 170px;
+	z-index: 2;
+}
+
+#pow6 {
+	position: absolute;
+	top: 420px;
+	left: 420px;
+	z-index: 2;
+}
+
+#pow7 {
+	position: absolute;
+	top: 370px;
+	left: 720px;
+	z-index: 2;
+}
+
+#warning {
+	position: absolute;
+	top: -100px;
+	left: 700px;
+	width: 250px;
+}
+
+#misses {
+   visibility: hidden;
+   background-color: FF0000;
+}
+
+
+#miss1 {
+	position: absolute;
+	top: 39px;
+	left: 490px;
+}
+
+#miss2 {
+	position: absolute;
+	top: 39px;
+	left: 505px;
+}
+
+#miss3 {
+	position: absolute;
+	top: 39px;
+	left: 520px;
+}
+
+#miss4 {
+	position: absolute;
+	top: 39px;
+	left: 535px;
+}
+
+#miss5 {
+	position: absolute;
+	top: 39px;
+	left: 550px;
+}
+
+#miss6 {
+	position: absolute;
+	top: 39px;
+	left: 565px;
+}
+
+#miss7 {
+	position: absolute;
+	top: 39px;
+	left: 580px;
+}
+
+#miss8 {
+	position: absolute;
+	top: 39px;
+	left: 595px;
+}
+
+#miss9 {
+	position: absolute;
+	top: 39px;
+	left: 610px;
+}
+
+#miss10   {
+	position: absolute;
+	top: 39px;
+	left: 625px;
+}
+
+
+.miss {
+	width: 15px;
+	height: 15px;
+	display: none;
+}
+
+.molepics {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.dirtImg {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#btnStart {
+	position: absolute;
+	left: 50px;
+	top: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    border-color: white;
+}
+
+#btnStart:hover {
+background-color: #ff5555;
+}
+
+#btnStart:active {
+background-color: #cc0000;
+}
+
+#molesLeft {
+	position: absolute;
+	left: 420px;
+	top: 10px;
+}
+
+#score {
+	visibility: hidden;
+}
+
+#miss {
+	position: absolute;
+	left: 430px;
+	top: 35px;
+}
+
+#timerBox {
+	position: absolute;
+	left: 360px;
+	top: 10px;
+}
+
+
+#score1 {
+	position: absolute;
+	left: 500px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score2 {
+	position: absolute;
+	left: 530px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score3 {
+	position: absolute;
+	left: 560px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score4 {
+	position: absolute;
+	left: 590px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score5 {
+	position: absolute;
+	left: 620px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score6 {
+	position: absolute;
+	left: 650px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+#score7 {
+	position: absolute;
+	left: 680px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+body {
+	background-image:url('farm.jpg');
+	background-repeat: no-repeat;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}   
+
+#mole1 {
+	position: absolute;
+	left: 100px;
+	top: 300px;
+	z-index:-1;
+}
+
+#dirt1 {
+	position: absolute;
+	left: 80px;
+	top: 290px;
+	
+}
+
+#mole2 {
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	z-index:-1;
+}
+
+#dirt2 {
+	position: absolute;
+	left: 275px;
+	top: 190px;  
+}
+
+#mole3 {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	z-index:-1;
+}
+
+#dirt3 {
+	position: absolute;
+	left: 475px;
+	top: 290px;
+}
+
+#mole4 {
+	position: absolute;
+	left: 700px;
+	top: 200px;
+	z-index:-1;
+}
+
+#dirt4 {
+	position: absolute;
+	left: 675px;
+	top: 190px;
+}
+
+#mole5 {
+	position: absolute;
+	left: 200px;
+	top: 450px;
+	z-index:-1;
+}
+
+#dirt5 {
+	position: absolute;
+	left: 175px;
+	top: 440px;
+}
+
+#mole6 {
+	position: absolute;
+	left: 450px;
+	top: 500px;
+	z-index:-1;
+}
+
+#dirt6 {
+	position: absolute;
+	left: 425px;
+	top: 490px;
+}
+
+#mole7 {
+	position: absolute;
+	left: 750px;
+	top: 450px;
+	z-index:-1;
+}
+
+#dirt7 {
+	position: absolute;
+	left: 725px;
+	top: 435px;
+}
